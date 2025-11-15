@@ -1,0 +1,25 @@
+:root{
+    --primary-color: #0056b3;
+    --secondary-color: #ff9900;
+    --text-color: #333;
+    --light-bg: #f4f4f4;
+    --white:#ffffff;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.7;
+}
+
+nav{
+    margin-top: 10px;
+}
+
+nav a{
+    color: var(--primary-color);
+    padding: 15px;
+}
+
+nav a.active, nav a:hover{
+    color: var(--secondary-color);
+}
