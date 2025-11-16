@@ -18,46 +18,46 @@
             <a href="contact.html">Contact Us</a>
         </nav>
     </header>
-    <main>
+    <main class="container0">
         <h2>We Are Ready To Assist You</h2>
-        <div>
-            <div>
+        <div class="contact-gid">
+            <div class="contact-info">
                 <h3>Contact details</h3>
-                <p>visit our store, call us, or send an email. We are her to help you find the right part quickly.</p>
-                <div>
-                    <span class="info-icon">Location</span>
+                <p>visit our store, call us, or send an email. We are here to help you find the right part quickly.</p>
+                <div class="info-item">
+                    <span class="info-icon">Location</span> <br>
                     <div>
                         <strong>Hoima City, plot 2003, opposite Hoima central market.</strong>
                     </div>
                 </div>
-                <div class="">
-                    <span>Phone</span> <br>
+                <div class="info-item"> 
+                    <span class="info-icon">Phone</span> <br>
                     <strong>Phone & WhatsApp</strong>
                     <a href="tel: 0755917308"><strong>07559177308</strong></a>
                     <br>
                     <a href="tel: 0778508763">0778508763</a>
                 </div>
             </div>
-            <div class="">
-                <span>Email</span>
-                <div>
+            <div class="info-item">
+                <span class="info-icon">Email</span>
+                <div class="info-text">
                     <strong>info@mikespares.com</strong>
                     <a href="mailto:info@mikespares.com">info@mikespares.com</a>
                 </div>
             </div>
-            <div>
-                <span>clock</span>
-                <div>
+            <div class="info-item">
+                <span class="info-icon">clock</span>
+                <div class="info-text">
                     <strong>Operating hours</strong>
                     Sun-Thur: 7:00AM-7:00PM <br>
                     Fri: 7:00AM-4:00PM
                 </div>
             </div>
         </div>
-        <div class="">
+        <div class="contact-form-container">
             <h3>Quick Inquiry Form</h3>
-            <form action="submit_form.php" method="POST">
-                <input type="text" id="name" name="name" required placeholder="Full name"> <br>
+            <form class="contact-form" action="submit_form.php" method="POST">
+                <input type="text" id="name" name="name" required placeholder="Your full name"> <br>
                 <label for="contact_method">Preferred Contact Method</label> <br>
                 <select name="contact_method" id="contact_method" required>
                     <option value="">--Select One--</option>
@@ -65,14 +65,15 @@
                     <option value="whatsapp">WhatsApp</option>
                     <option value="email">Email</option>
                 </select> <br>
-                <input type="tel" id="phone" name="phone" required> <br>
-                <input type="email" id="email" name="email"> <br>
-                <textarea name="message" id="message"></textarea> <br>
+                <input type="tel" id="phone" name="phone" required placeholder="Your Phone Number"> <br>
+                <input type="email" id="email" name="email" placeholder="Your email"> <br>
+                <textarea name="message" id="message" required placeholder="Please Describe The Part/Service You Need"></textarea> <br>
+                <button class="submit-button">Send Inquiry</button>
             </form>
         </div>
     </main>
     <footer>
-
+        &Copf; 2025 Mike Motor Spares Hoima.
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
