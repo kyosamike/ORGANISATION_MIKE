@@ -18,7 +18,7 @@ nav{
 
 nav a{
     color: var(--primary-color);
-    padding: 15px;
+    padding: 8px;
 }
 
 nav a.active, nav a:hover{
